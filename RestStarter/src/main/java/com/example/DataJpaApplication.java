@@ -20,8 +20,9 @@ public class DataJpaApplication {
 
 		};
 	}
-
+	 
 	// branch 1 comment
+	// branch 2 comment
 	@Bean
 	CommandLineRunner exampleQuery(CarRepository repository) {
 		return args -> repository.findByMakeIgnoringCase("HONDA").forEach(System.err::println);
