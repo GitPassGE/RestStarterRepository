@@ -8,6 +8,8 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class DataJpaApplication {
+	
+	// this is a rest with database example
 
 	@Bean
 	InitializingBean seedDatabase(CarRepository repository) {
