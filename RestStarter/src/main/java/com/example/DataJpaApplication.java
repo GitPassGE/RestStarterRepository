@@ -22,7 +22,7 @@ public class DataJpaApplication {
 	}
 
 	// branch 1 comment
-	// actual branch 1 comment
+	// actual branch 1.1 comment
 	// actual branch 2 comment
 	@Bean
 	CommandLineRunner exampleQuery(CarRepository repository) {
